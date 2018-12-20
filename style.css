@@ -224,35 +224,40 @@ input[type=submit] {
  #masthead{
   width:920px;
   margin-left:20px;
+  margin-right:auto;
   position:static; 
 }
 
  #main-container{
-  float:left;
-  width:585px;
+  width:650px;
+  height: auto;
   margin-left:20px;
-  margin-bottom:400px;
+  margin-bottom:500px;
+  margin-top: -130px;
  }
 
 
 @media screen and (max-width:768px){
  #masthead{
   width:718px;
+  height:auto;
   margin-left:20px;
+  margin-right:auto;
   position: static;
  }
 
  #main-container{
   width:710px;
-  margin-bottom:400px;
+  margin-bottom:500px;
 
  }
 
 @media screen and (max-width:640px){
   #masthead{
-    width:630px;
+    width:640px;
+    margin-right:auto;
+    margin-left:auto;
     position: static;
-    margin:auto;
 }
   #logo{
     width:630px;
@@ -261,32 +266,30 @@ input[type=submit] {
 
   nav {
     text-align: center;
-    margin-right: 190px;
-  }
+    margin-right:190px;
+    }
 
   .work{
     margin-left:45px;
     width:85%;
   }
   
-  h3{
-   margin-left:1000px;
-  }
+
 
   #main-container{
       width:570px;
-      margin-bottom:200px;
-      margin-left:20px;
-      margin-top:-40px;
-      float
+      margin-bottom:500px;
+      margin-left:auto;
+      margin-left:auto;
+      margin-top:-120px;
   }
 
 .auth-image{
-  width:89%;
+  width:95%;
   }
 
 h3{
-  margin-left: 200px
+  margin-right:500px
 }
   .work{
     text.align:center;
